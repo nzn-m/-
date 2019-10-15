@@ -2,6 +2,10 @@ $(window).load(function(){
   var heightSize = $(window).height();
   $('.gnav-sp').height(heightSize);
 });
+$(window).resize(function(){
+  var heightSize = $(window).height();
+  $('.gnav-sp').height(heightSize);
+});
 
 $(function(){
   $('.gnav-drawer-btn').click(function(){
