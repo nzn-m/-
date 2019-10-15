@@ -1,4 +1,4 @@
-﻿/*リセットcss:*/
+/*リセットcss:*/
 
 * {
 	margin: 0;
@@ -903,7 +903,7 @@ footer {
 	left: 0;
 	width: 100%;
 	background: #DDDDDD;
-	z-index: 99999;
+	z-index: 99997;
 }
 .float-footer .float-footer-inner {
 	position: relative;
