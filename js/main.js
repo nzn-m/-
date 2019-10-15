@@ -1,9 +1,9 @@
 $(window).load(function(){
-  var heightSize = $(window).height();
+  var heightSize = window.innerHeight;
   $('.gnav-sp').height(heightSize);
 });
 $(window).resize(function(){
-  var heightSize = $(window).height();
+  var heightSize = window.innerHeight;
   $('.gnav-sp').height(heightSize);
 });
 
